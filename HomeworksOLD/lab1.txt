@@ -1,0 +1,169 @@
+﻿    1  dir
+    2  apt-get update
+    3  sudo nano /etc/apt/apt.conf
+
+Acquire::http::Proxy "http://cache.ase.ro:8080";
+Acquire::https::Proxy "https://cache.ase.ro:8080";
+Acquire::ftp::Proxy "ftp://cache.ase.ro:8080";
+
+
+
+    4  apt-get update
+    5  nano ~/.bash.rc
+    6  sudo apt update
+    7  sudo apt upgrade
+    8  sudo install mc
+    9  sudo add-apt-repository universe
+   10  sudo apt update
+   11  sudo apt install mc
+   12  sudo nano /etc/apt/sources.list
+   13  wget http://www.webmin.com/jcameron-key.asc
+   14  dir
+   15  sudo install wget
+   16  sudo install wget*
+   17  curl
+   18  sudo install curl
+   19  curl wttr.in/Bucharest
+   20  wget wttr.in/Bucharest
+   21  vmstat
+   22  sudo apt-key add jcameron-key.asc
+   23  wget http://www.webmin.com/jcameron-key.asc
+   24  sudo install webmin
+   25  sudo apt install wget
+   26  sudo apt install curl
+   27  wget http://www.webmin.com/jcameron-key.asc
+   28  top -b |head -10 |tail -4
+   29  at /dev/null > ~/.bash_history && history
+   30  cat /dev/null > ~/.bash_history && history
+   31  dir
+   32  ls
+   33  ls -l
+   34  cd ./txts
+   35  dir
+   36  ls -l
+   37  cat Animal.txt 
+   38  cd ~
+   39  dir
+   40  ls -l
+   41  cd ../
+   42  cd ~
+   43  ls
+   44  cd /
+   45  ls
+   46  command [options…] [arguments…]
+   47  You will begin by running three commands: pwd, ls and uname. These commands, in their simplest forms, are executed without any options or arguments.
+   48  echo You will begin by running three commands: pwd, ls and uname. These commands, in their simplest forms, are executed without any options or arguments.
+   49  At the shell prompt, type the pwd command and press the Enter key. The pwd command displays the directory where the user is currently located in the file system:
+   50  dircat /dev/null > ~/.bash_history && history
+   51  cat /dev/null > ~/.bash_history && history
+   52  pwd
+   53  ls
+   54  cd /home
+   55  dir
+   56  pwd
+   57  cd ./home
+   58  cd ../home
+   59  dir
+   60  cd ../
+   61  dir
+   62  cd /home/stud
+   63  dir
+   64  pwd
+   65  dir
+   66  cd ../txts
+   67  cd ./txts
+   68  dir
+   69  ls -l
+   70  ls
+   71  pwd
+   72  uname
+   73  ls
+   74  ls -l
+   75  dir
+   76  LS
+   77  Sl
+   78  ls
+   79  ls -a
+   80  ls --all
+   81  ls -l
+   82  ls
+   83  ls -r
+   84  -r reverse
+   85  ls -a
+   86  ls -a -l -r
+   87  uname
+   88  uname -a
+   89  uname -s
+   90  uname -n
+   91  uname -m
+   92  uname -n
+   93  uname -s
+   94  uname -p
+   95  uname -i
+   96  uname -o
+   97  ls –rw 40
+   98  ls -rw
+   99  ls –w 40 –I "T*"
+  100  ls --all –rl
+  101  ls --all
+  102  ls --color=never
+  103  ls --all
+  104  ouch –d “1970-01-01 12:00:00” -- --badname
+  105  touch –d “1970-01-01 12:00:00” -- --badname
+  106  ls –-full-time -- --badname
+  107  rm -- --badname
+  108  ls
+  109  rm -d
+  110  touch lpicfile.txt
+  111  ls
+  112  rm lpicfile.txt
+  113  ls
+  114  rm ls
+  115  ls
+  116  ifconfig
+  117  touch test.txt
+  118  ls
+  119  rm test.txt 
+  120  ls
+  121  cp /etc/hosts myhosts
+  122  ls
+  123  rm myhosts 
+  124  cd
+  125  echo hello worldcd
+  126  cd
+  127  echo “hello worldcd”
+  128  cd
+  129  echo ‘hello worldcd’
+  130  alias xxx='mkdir test'
+  131  xxx
+  132  ls
+  133  alias xxx='mkdir'
+  134  xxx gigi
+  135  ls
+  136  rm gigi
+  137  rm ./gig
+  138  rm ./gigi
+  139  rm /gig
+  140  rm /gigi
+  141  unalis xxx
+  142  unalias xxx
+  143  xxx test
+  144  ls
+  145  rmdir gigi
+  146  ls
+  147  cd test
+  148  ls
+  149  ls -l
+  150  cd ./
+  151  ls -l
+  152  cd ../
+  153  ls -l
+  154  rmdir test
+  155  ls -l
+  156  cal
+  157  cal 6 2019
+  158  history
+  159  cat history lab1.txt
+  160  cat .history
+  161  history
+  162  history > lab1.txt

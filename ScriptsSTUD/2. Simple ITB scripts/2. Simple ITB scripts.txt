@@ -1,0 +1,20 @@
+Getting Started
+
+Hello.sh: get a simple output
+Hello part B interactive .sh a simple but very much interactive script 
+very_simple_backup_script.sh instead of printing a message on the terminal, we create a tar-ball of a user's home directory
+
+Math
+
+Addition.sh: perform addition of two numbers
+Substraction.sh: perform substraction of two numbers
+Multiplication.sh: perform multiplication of two numbers
+Division.sh: perform division of two numbers
+mathcalc.sh: a simple calculator
+Table.sh: print table of any number
+EvenOdd.sh: check if a number input from standard input is odd or even
+Factorial.sh: generate the factorial of a number
+Prime.sh: check if a number is prime or not
+Fibonacci.sh: test if a number being entered is a Fibonacci or not
+Decimal2Binary.sh: convert Decimal Number to Binary
+Binary2Decimal.sh: convert Binary Number back to decimal

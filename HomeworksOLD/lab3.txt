@@ -1,0 +1,104 @@
+    1  ls
+    2  cat /etc/hosts
+    3  cat /etc/hostname
+    4  cat /etc/hosts /etc/hostname > result
+    5  ls
+    6  cat result
+    7  rm result
+    8  ls
+    9  cat lab1.txt lab2.txt > lab12.txt
+   10  ls
+   11  cat lab12
+   12  cat lab12.txt
+   13  cat –n lab12.txt
+   14  ls
+   15  rm lab12.txt
+   16  ls
+   17  file lab1.txt 
+   18  file /bin/ls
+   19  file /bin/man
+   20  file /etc/hosts
+   21  cd ./txts
+   22  ls
+   23  cd 5.JOKES/
+   24  dir
+   25  ls -l
+   26  cd ./
+   27  cd ../
+   28  ls
+   29  cd 0.lyrics/
+   30  ls
+   31  ls -l
+   32  cd ../
+   33  ls
+   34  whereami
+   35  where
+   36  ls
+   37  split Animal.txt output
+   38  ls
+   39  cat Animal.txt 
+   40  cat outputaa 
+   41  split Animal.txt -d AA
+   42  ls
+   43  rm AA00 
+   44  rm outputaa 
+   45  ls
+   46  cat Animal.txt 
+   47  split Animal.txt Litere -l 2
+   48  ls
+   49  cat Litereab
+   50  cat Litereac
+   51  cat Animal.txt 
+   52  rm Literea*
+   53  ls
+   54  nl Animal.txt 
+   55  cat Animal.txt 
+   56  nl Animal.txt > Nolines.txt
+   57  ls
+   58  cat Nolines.txt 
+   59  rm Nolines.txt 
+   60  nl -ba idem
+   61  head Animal.txt 
+   62  ls
+   63  cd 0.lyrics/
+   64  ls -l
+   65  ls -l | less
+   66  cat 10oops.txt 
+   67  cat 10oops.txt | leass
+   68  head 10oops.txt 
+   69  cat 10oops.txt | less
+   70  cat 10oops.txt | head 5
+   71  cat 10oops.txt | head -5
+   72  cat 10oops.txt | head -15
+   73  head -n 20 10oops.txt 
+   74  head -n 4 10oops.txt 
+   75  tail 10oops.txt 
+   76  tail -5 10oops.txt 
+   77  ls -ltr /etc
+   78  ls -ltr /etc | tail -n 10
+   79  ls -ltr /etc | tail -n 3
+   80  ls -ltr
+   81  ls -ltr | tail -n 10
+   82  ls -ltr | tail -n 3
+   83  ls -ltr | head -n 3
+   84  ls -ltr | tail -n +3
+   85  ls -ltr | tail -n +20
+   86  ls -ltr | tail -n +30
+   87  ls -ltr | tail > listtail.tx
+   88  ls -ltr | head > listhead.tx
+   89  ls
+   90  paste listtail.tx listhead.tx > listtotal.txt
+   91  ls
+   92  cat listhead.tx 
+   93  cat listtail.tx 
+   94  cat listtotal.txt 
+   95  ls
+   96  rm list*
+   97  ls
+   98  cd ./
+   99  ls
+  100  cd ../
+  101  ls
+  102  cd ../
+  103  ls
+  104  history > lab3.txt

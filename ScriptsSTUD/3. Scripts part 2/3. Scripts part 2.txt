@@ -1,0 +1,23 @@
+Getting Started
+
+Process.sh: execute more than one command in a script
+Pattern.sh: draw a diamond pattern with dots(.)
+While-Read.sh: read lines from a file using while loop
+Read-Menu.sh: display a menu for system information
+While-Menu.sh: a repeated menu for system information
+Convertlowercase.sh: convert data either from the file or standard input to lowercase
+Encrypt.sh: encrypt a file/folder with password
+up.sh: move up a directory in shell script
+weather.sh : check the weather in a specified location or using the geolocation of the ip address by default.
+
+Programming
+
+VersionCompare.sh: compare two version number
+
+System Administration
+
+Test-File.sh: evaluate the status of a file/directory
+Server-Health.sh: report server related information
+CPU.sh: report if CPU usage exceeds the threshold
+CollectNetworkInfo.sh: gather information related to server
+RemoteBackup.sh: backup a local file into a remote server

@@ -1,0 +1,22 @@
+    1  getting help & docs
+    2  man ls
+    3  ls --help
+    4  man passwd
+    5  man 5 passwd
+    6  man 8 passwd
+    7  sudo man 8 passwd
+    8  man 2 passwd
+    9  ls
+   10  man -k passwd
+   11  man –f passwd
+   12  whatis passwd
+   13  whatis ls
+   14  whatis man
+   15  whatis dir
+   16  man man
+   17  whatis ls
+   18  info ls
+   19  info passwd
+   20  ls --help
+   21  ls
+   22  history > lab2.txt

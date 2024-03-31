@@ -1,0 +1,66 @@
+if [ $# -gt 0 ]
+then echo -e "agenda:argument error">&2
+echo "usage: agenda">&2
+exit 1
+fi
+BASE="$HOME/contacts.list"
+while :
+do
+echo -e "
+phonebase=$BASE
+MENU
+------------------------------
+add name to list (a)
+delete name from list (d)
+edit list (e)
+search for name in list (s)
+view complete list (v)
+<ENTER> exit program
+Press a/d/e/s/v or <ENTER>:\c
+------------------------------
+"
+read answ
+case $answ in
+"") exit 0;;
+a|A) echo -e "Enter name to add:\c"
+read name
+if [ $name = "" ]
+then continue
+fi
+echo -e "Enter surname of person:\c"
+read surname
+echo -e "Enter phone number to add:\c"
+read no
+echo -e "$name\t\t$surname\t\t$no">>$BASE
+sort -o $BASE $BASE
+;;
+d|D) echo -e "Enter name to delete (<ENTER> to exit):\c"
+read name
+if [ $name = "" ]
+then continue
+fi
+sed -e "/$name/d" $BASE > $BASE.new
+mv $BASE.new $BASE
+;;
+e|E) pico $BASE;;
+s|S) echo -e "\n Enter name to search:\c"
+read name
+grep -i $name $BASE > /dev/null
+if [ "$?" -eq 0 ]
+then
+echo -e "\n--------------------"
+grep -i $name $BASE
+echo -e "\n--------------------"
+else
+echo "$name not found in the phone list!!"
+fi
+;;
+v|V) echo -e "\n\t Phone list\n\t-----------"
+more $BASE
+echo -e "\n Hit <ENTER>\c"
+read answ
+;;
+*) echo -e "Not a valid command!"
+;;
+esac
+done

@@ -1,0 +1,5 @@
+#!/bin/bash
+echo Hello!
+echo "What's your name?"
+read name
+echo "Hello $name!"

@@ -1,0 +1,53 @@
+
+#!/bin/bash
+# weather.sh
+# Copyright 2019 studentASE. All rights reserved.
+# More on https://github.com/chubin/wttr.in
+# wttr.in uses wego for visualization and various data sources for weather forecast information
+# For a specific location use curl wttr.in/Bucharest
+# Help on $ curl wttr.in/:help
+
+
+program=Weather
+
+version=1.0
+
+year=2019
+
+developer=studentASE
+
+
+
+case $1 in
+
+  -h|--help)
+
+    echo "$program $version"
+
+    echo "Copyright $year $developer. All rights reserved."
+
+    echo
+
+    echo "Usage: weather [options]"
+
+    echo "Option          Long Option             Description"
+
+    echo "-h              --help                  Show the help screen"
+
+    echo "-l [location]   --location [location]   Specifies the location"
+
+    ;;
+
+  -l|--location)
+
+    curl wttr.in/$2 #curl, httpie, or wget
+
+    ;;
+
+  *)
+
+    curl wttr.in
+
+    ;;
+
+esac
